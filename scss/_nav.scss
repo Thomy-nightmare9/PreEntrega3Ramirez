@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 350px;
+    padding-right: 0px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    right: 250px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    a {
+        color: $color-negro;
+        text-decoration: none;
+    }
+    @include tablet {
+        flex-direction: column;
+        padding: 10px 0px;
+        font-size: 20px;
+    }
+}
+
+.logotipo {
+    text-align: left;
+    height: 10px;
+    width: 10px;
+    .logo {
+        border-radius: 100%;
+        width: 90px;
+        height: 90px;
+        margin-left: 30px;
+        position: absolute;
+        bottom: 5px;
+    }
+    @include tablet {
+        display: none;
+    }
+}
+
+.redes {
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+    .facebook {
+        height: 40px;
+        width: 40px;
+        margin-right: 25px;
+    }
+    .instagram {
+        @extend .facebook;
+    }
+    .whatsapp {
+        @extend .facebook;
+    }
+    @include tablet {
+        display: none;
+    }
+}
+
+.bandera{
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    .italia {
+        height: 80px;
+        width: 15px;
+        margin-right: 225px;
+    }
+    @include tablet {
+        display: none;
+    }
+}
+

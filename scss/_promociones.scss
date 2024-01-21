@@ -1,0 +1,73 @@
+.fondo-promociones {
+    background-color: $color-verde;
+    .texto-promocion {
+        color: $color-blanco;
+        text-align: center;
+        font-size: 50px;
+        bottom: 500px;
+        padding-top: 100px;
+        justify-content: center;
+    }
+    .promo1{
+        width: 600px;
+        height: 600px;
+        margin-right: 40px;
+        border-radius: 10%;
+        margin-left: 70px;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 10px;
+    }
+    .promo2{
+        width: 600px;
+        height: 595px;
+        border-radius: 10%;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: 10px;
+    }
+    @include tablet {
+        .promo1{
+            width: 450px;
+            height: 450px;
+            margin-right: 40px;
+            border-radius: 10%;
+            margin-left: 70px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 10px;
+        }
+        .promo2{
+            width: 450px;
+            height: 450px;
+            margin-right: 40px;
+            border-radius: 10%;
+            margin-left: 70px;
+            text-align: center;
+            margin-bottom: 400px;
+            margin-top: 10px;
+        }
+    }
+    @include mobile {
+        .promo1{
+            width: 350px;
+            height: 350px;
+            margin-right: 40px;
+            border-radius: 10%;
+            margin-left: 70px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 10px;
+        }
+        .promo2{
+            width: 350px;
+            height: 350px;
+            margin-right: 40px;
+            border-radius: 10%;
+            margin-left: 70px;
+            text-align: center;
+            margin-bottom: 550px;
+            margin-top: 10px;
+        }
+    }
+}

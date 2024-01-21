@@ -1,0 +1,410 @@
+.fondo-menu {
+    background-color: $color-negro;
+    width: 1359px;
+    height: 2000px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    .card-linea1 .container-linea1 {
+        padding: 15px;
+        text-align: center;
+    }
+    .container-linea1 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1200px;
+        height: 100%;
+        max-height: 500px;
+        padding-left: 20px;
+        position: absolute;
+        .muzza1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: $color-verde;
+            border-radius: 100px;
+            left: 155px;
+        }
+        .muzza2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 430px;
+            left: 150px;
+        }
+        .napolitana1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: $color-verde;
+            border-radius: 100px;
+            left: 540px;
+        }
+        
+        .napolitana2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 430px;
+            left: 600px;
+        }
+        .margherita1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: $color-verde;
+            border-radius: 100px;
+            left: 975px;
+        }
+        
+        .margherita2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 430px;
+            left: 1040px;
+        }
+        .card-linea1 {
+            width: 100%;
+            margin: 20px;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+    }
+    .card-linea2 .container-linea2 {
+        padding: 15px;
+        text-align: center;
+    }
+    .container-linea2 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 100px;
+        height: 100%;
+        max-height: 500px;
+        margin-left: 10px;
+        position: absolute;
+        .jamon-morron1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $color-verde;
+            border-radius: 60px;
+            left: 100px;
+            bottom: 430px;
+        }
+        .jamon-morron2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 430px;
+            left: 140px;
+        }
+        .cuatroquesos1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $color-verde;
+            border-radius: 100px;
+            left: 560px;
+            bottom: 430px;
+        }
+        .cuatroquesos2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 430px;
+            left: 580px;
+        }    
+        .card-linea2 {
+            width: 100%;
+            margin: 20px;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+    }
+    .card-linea3 .container-linea3 {
+        padding: 15px;
+        text-align: center;
+    }
+    .container-linea3 {
+        width: 100%;
+        display: flex;
+        margin-top: 1000px;
+        height: 100%;
+        max-height: 500px;
+        margin-left: 10px;
+        position: absolute;
+        .tomate1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $color-verde;
+            border-radius: 60px;
+            left: 100px;
+            bottom: 450px;
+        }
+        .tomate2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 440px;
+            left: 130px;
+        }
+        .jamon1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $color-verde;
+            border-radius: 100px;
+            left: 565px;
+            bottom: 450px;
+        }
+        .jamon2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 440px;
+            left: 590px;
+        }
+        .especial1{
+            color: $color-negro;
+            text-align: center;
+            font-size: 40px;
+            padding-bottom: 10px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: $color-verde;
+            border-radius: 100px;
+            left: 990px;
+            bottom: 450px;
+        }
+        
+        .especial2{
+            color: $color-blanco;
+            text-align: center;
+            font-size: 50px;
+            justify-content: center;
+            position: absolute;
+            padding-left: 50px;
+            padding-right: 50px;
+            background-color: $color-rojo;
+            border-radius: 100px;
+            top: 440px;
+            left: 1050px;
+        }
+        .card-linea3 {
+            width: 100%;
+            margin: 20px;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+    }
+    .container-pizza1 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 1040px;
+        height: 100%;
+        max-height: 500px;
+        margin-left: 10px;
+        position: absolute;
+        .card-muzza {
+            width: 300px;
+            height: 300px;
+            margin-left: 70px;
+            text-align: start;
+            margin-bottom: 200px;
+        }
+        .card-napolitana {
+            width: 300px;
+            height: 300px;
+            margin-left: 150px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 20px;
+        }
+        .card-margherita {
+            width: 300px;
+            height: 300px;
+            margin-left: 130px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 10px;
+        }
+    }
+    .container-pizza2 {
+        width: 100%;
+        display: flex;
+        margin-bottom: 220px;
+        height: 100%;
+        max-height: 500px;
+        margin-left: 10px;
+        position: absolute;
+        .card-jamonymorron {
+            width: 300px;
+            height: 300px;
+            margin-left: 50px;
+            text-align: start;
+            margin-bottom: 200px;
+            margin-top: 130px;
+        }
+        
+        .card-cuatroquesos {
+            width: 300px;
+            height: 300px;
+            margin-left: 160px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 70px;
+        }
+        
+        .card-pepperoni {
+            width: 300px;
+            height: 300px;
+            margin-left: 150px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 10px;
+        }
+    }
+    .container-pizza3 {
+        width: 100%;
+        display: flex;
+        margin-top: 620px;
+        height: 100%;
+        max-height: 500px;
+        margin-left: 10px;
+        position: absolute;
+        .card-tomate {
+            width: 300px;
+            height: 300px;
+            margin-left: 50px;
+            text-align: start;
+            margin-bottom: 200px;
+            margin-top: 130px;
+        }
+        .card-jamon {
+            width: 300px;
+            height: 300px;
+            margin-left: 160px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 280px;
+        }
+        .card-especial {
+            width: 300px;
+            height: 300px;
+            margin-left: 150px;
+            text-align: center;
+            margin-bottom: 200px;
+            margin-top: 120px;
+        }
+    }
+}
+.pepperoni1{
+    color: $color-negro;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: $color-verde;
+    border-radius: 100px;
+    left: 1010px;
+    top: 690px;
+}
+.pepperoni2{
+    color: $color-blanco;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: $color-rojo;
+    border-radius: 100px;
+    top: 1135px;
+    left: 1045px;
+}

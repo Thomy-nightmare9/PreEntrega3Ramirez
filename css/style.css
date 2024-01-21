@@ -1,0 +1,673 @@
+@import url("https://fonts.cdnfonts.com/css/cardium-a");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'cardium-a'; }
+
+body {
+  position: relative; }
+
+header {
+  background-color: #BDBDBD;
+  color: #161616;
+  width: 100px;
+  height: 100px;
+  padding-right: 100%;
+  position: absolute; }
+  @media screen and (max-width: 768px) {
+    header {
+      height: 200px; } }
+
+nav {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 350px;
+  padding-right: 0px;
+  padding-bottom: 4px;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  right: 250px; }
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px; }
+  ul li a {
+    color: #161616;
+    text-decoration: none; }
+  @media screen and (max-width: 768px) {
+    ul li {
+      flex-direction: column;
+      padding: 10px 0px;
+      font-size: 20px; } }
+
+.logotipo {
+  text-align: left;
+  height: 10px;
+  width: 10px; }
+  .logotipo .logo {
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 5px; }
+  @media screen and (max-width: 768px) {
+    .logotipo {
+      display: none; } }
+
+.redes {
+  text-align: right;
+  position: absolute;
+  top: 30px;
+  right: 10px; }
+  .redes .facebook, .redes .instagram, .redes .whatsapp {
+    height: 40px;
+    width: 40px;
+    margin-right: 25px; }
+  @media screen and (max-width: 768px) {
+    .redes {
+      display: none; } }
+
+.bandera {
+  text-align: right;
+  position: absolute;
+  top: 10px;
+  right: 10px; }
+  .bandera .italia {
+    height: 80px;
+    width: 15px;
+    margin-right: 225px; }
+  @media screen and (max-width: 768px) {
+    .bandera {
+      display: none; } }
+
+.fondo-inicio {
+  width: 1349px;
+  height: 1000px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-color: #CE6724; }
+
+.fondo-menu {
+  background-color: #161616;
+  width: 1359px;
+  height: 2000px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center; }
+  .fondo-menu .card-linea1 .container-linea1 {
+    padding: 15px;
+    text-align: center; }
+  .fondo-menu .container-linea1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1200px;
+    height: 100%;
+    max-height: 500px;
+    padding-left: 20px;
+    position: absolute; }
+    .fondo-menu .container-linea1 .muzza1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #009246;
+      border-radius: 100px;
+      left: 155px; }
+    .fondo-menu .container-linea1 .muzza2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 430px;
+      left: 150px; }
+    .fondo-menu .container-linea1 .napolitana1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #009246;
+      border-radius: 100px;
+      left: 540px; }
+    .fondo-menu .container-linea1 .napolitana2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 430px;
+      left: 600px; }
+    .fondo-menu .container-linea1 .margherita1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+      background-color: #009246;
+      border-radius: 100px;
+      left: 975px; }
+    .fondo-menu .container-linea1 .margherita2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 430px;
+      left: 1040px; }
+    .fondo-menu .container-linea1 .card-linea1 {
+      width: 100%;
+      margin: 20px;
+      border-radius: 50px;
+      overflow: hidden; }
+  .fondo-menu .card-linea2 .container-linea2 {
+    padding: 15px;
+    text-align: center; }
+  .fondo-menu .container-linea2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 100px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute; }
+    .fondo-menu .container-linea2 .jamon-morron1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #009246;
+      border-radius: 60px;
+      left: 100px;
+      bottom: 430px; }
+    .fondo-menu .container-linea2 .jamon-morron2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 430px;
+      left: 140px; }
+    .fondo-menu .container-linea2 .cuatroquesos1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #009246;
+      border-radius: 100px;
+      left: 560px;
+      bottom: 430px; }
+    .fondo-menu .container-linea2 .cuatroquesos2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 430px;
+      left: 580px; }
+    .fondo-menu .container-linea2 .card-linea2 {
+      width: 100%;
+      margin: 20px;
+      border-radius: 50px;
+      overflow: hidden; }
+  .fondo-menu .card-linea3 .container-linea3 {
+    padding: 15px;
+    text-align: center; }
+  .fondo-menu .container-linea3 {
+    width: 100%;
+    display: flex;
+    margin-top: 1000px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute; }
+    .fondo-menu .container-linea3 .tomate1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #009246;
+      border-radius: 60px;
+      left: 100px;
+      bottom: 450px; }
+    .fondo-menu .container-linea3 .tomate2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 440px;
+      left: 130px; }
+    .fondo-menu .container-linea3 .jamon1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #009246;
+      border-radius: 100px;
+      left: 565px;
+      bottom: 450px; }
+    .fondo-menu .container-linea3 .jamon2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 440px;
+      left: 590px; }
+    .fondo-menu .container-linea3 .especial1 {
+      color: #161616;
+      text-align: center;
+      font-size: 40px;
+      padding-bottom: 10px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 30px;
+      padding-right: 30px;
+      background-color: #009246;
+      border-radius: 100px;
+      left: 990px;
+      bottom: 450px; }
+    .fondo-menu .container-linea3 .especial2 {
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 50px;
+      justify-content: center;
+      position: absolute;
+      padding-left: 50px;
+      padding-right: 50px;
+      background-color: #CE2B37;
+      border-radius: 100px;
+      top: 440px;
+      left: 1050px; }
+    .fondo-menu .container-linea3 .card-linea3 {
+      width: 100%;
+      margin: 20px;
+      border-radius: 50px;
+      overflow: hidden; }
+  .fondo-menu .container-pizza1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1040px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute; }
+    .fondo-menu .container-pizza1 .card-muzza {
+      width: 300px;
+      height: 300px;
+      margin-left: 70px;
+      text-align: start;
+      margin-bottom: 200px; }
+    .fondo-menu .container-pizza1 .card-napolitana {
+      width: 300px;
+      height: 300px;
+      margin-left: 150px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 20px; }
+    .fondo-menu .container-pizza1 .card-margherita {
+      width: 300px;
+      height: 300px;
+      margin-left: 130px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 10px; }
+  .fondo-menu .container-pizza2 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 220px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute; }
+    .fondo-menu .container-pizza2 .card-jamonymorron {
+      width: 300px;
+      height: 300px;
+      margin-left: 50px;
+      text-align: start;
+      margin-bottom: 200px;
+      margin-top: 130px; }
+    .fondo-menu .container-pizza2 .card-cuatroquesos {
+      width: 300px;
+      height: 300px;
+      margin-left: 160px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 70px; }
+    .fondo-menu .container-pizza2 .card-pepperoni {
+      width: 300px;
+      height: 300px;
+      margin-left: 150px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 10px; }
+  .fondo-menu .container-pizza3 {
+    width: 100%;
+    display: flex;
+    margin-top: 620px;
+    height: 100%;
+    max-height: 500px;
+    margin-left: 10px;
+    position: absolute; }
+    .fondo-menu .container-pizza3 .card-tomate {
+      width: 300px;
+      height: 300px;
+      margin-left: 50px;
+      text-align: start;
+      margin-bottom: 200px;
+      margin-top: 130px; }
+    .fondo-menu .container-pizza3 .card-jamon {
+      width: 300px;
+      height: 300px;
+      margin-left: 160px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 280px; }
+    .fondo-menu .container-pizza3 .card-especial {
+      width: 300px;
+      height: 300px;
+      margin-left: 150px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 120px; }
+
+.pepperoni1 {
+  color: #161616;
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  justify-content: center;
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #009246;
+  border-radius: 100px;
+  left: 1010px;
+  top: 690px; }
+
+.pepperoni2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  justify-content: center;
+  position: absolute;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #CE2B37;
+  border-radius: 100px;
+  top: 1135px;
+  left: 1045px; }
+
+.fondo-nosotros {
+  background-color: #CE2B37;
+  width: 100%;
+  height: 1000px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center; }
+  .fondo-nosotros .texto-nosotros-1 {
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 600px;
+    background-color: #BDBDBD;
+    font-size: 40px;
+    border-radius: 40px;
+    opacity: .7; }
+  .fondo-nosotros .texto-nosotros-2 {
+    text-align: center;
+    top: 300px;
+    right: 150px;
+    left: 400px;
+    width: 600px;
+    height: 420px;
+    font-size: 30px;
+    color: #FFFFFF;
+    background-color: #161616;
+    border-radius: 15px;
+    justify-content: center;
+    position: absolute;
+    opacity: .8; }
+  @media screen and (max-width: 768px) {
+    .fondo-nosotros .texto-nosotros-1 {
+      text-align: center;
+      margin-left: 50px;
+      margin-bottom: 500px;
+      background-color: #BDBDBD;
+      font-size: 20px;
+      border-radius: 20px;
+      opacity: .7; }
+    .fondo-nosotros .texto-nosotros-2 {
+      text-align: center;
+      top: 300px;
+      right: 100px;
+      left: 100px;
+      width: 400px;
+      height: 300px;
+      font-size: 20px;
+      color: #FFFFFF;
+      background-color: #161616;
+      background-position: center;
+      border-radius: 15px;
+      justify-content: center;
+      position: absolute;
+      opacity: .8; } }
+  @media screen and (max-width: 576px) {
+    .fondo-nosotros .texto-nosotros-1 {
+      text-align: center;
+      margin-left: 50px;
+      margin-bottom: 500px;
+      background-color: #BDBDBD;
+      font-size: 15px;
+      border-radius: 20px;
+      opacity: .7; }
+    .fondo-nosotros .texto-nosotros-2 {
+      text-align: center;
+      top: 300px;
+      right: 100px;
+      left: 100px;
+      width: 200px;
+      height: 210px;
+      font-size: 12px;
+      color: #FFFFFF;
+      background-color: #161616;
+      background-position: center;
+      border-radius: 10px;
+      justify-content: center;
+      position: absolute;
+      opacity: .8; } }
+
+.fondo-promociones {
+  background-color: #009246; }
+  .fondo-promociones .texto-promocion {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    bottom: 500px;
+    padding-top: 100px;
+    justify-content: center; }
+  .fondo-promociones .promo1 {
+    width: 600px;
+    height: 600px;
+    margin-right: 40px;
+    border-radius: 10%;
+    margin-left: 70px;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px; }
+  .fondo-promociones .promo2 {
+    width: 600px;
+    height: 595px;
+    border-radius: 10%;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 10px; }
+  @media screen and (max-width: 768px) {
+    .fondo-promociones .promo1 {
+      width: 450px;
+      height: 450px;
+      margin-right: 40px;
+      border-radius: 10%;
+      margin-left: 70px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 10px; }
+    .fondo-promociones .promo2 {
+      width: 450px;
+      height: 450px;
+      margin-right: 40px;
+      border-radius: 10%;
+      margin-left: 70px;
+      text-align: center;
+      margin-bottom: 400px;
+      margin-top: 10px; } }
+  @media screen and (max-width: 576px) {
+    .fondo-promociones .promo1 {
+      width: 350px;
+      height: 350px;
+      margin-right: 40px;
+      border-radius: 10%;
+      margin-left: 70px;
+      text-align: center;
+      margin-bottom: 200px;
+      margin-top: 10px; }
+    .fondo-promociones .promo2 {
+      width: 350px;
+      height: 350px;
+      margin-right: 40px;
+      border-radius: 10%;
+      margin-left: 70px;
+      text-align: center;
+      margin-bottom: 550px;
+      margin-top: 10px; } }
+
+.fondo-contacto1 {
+  background-color: #161616;
+  width: 1365px;
+  height: 1100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center; }
+  .fondo-contacto1 .fondo-contacto2 {
+    margin-right: 650px; }
+
+.formulario {
+  margin-left: 100px;
+  position: absolute;
+  bottom: 300px;
+  right: 150px;
+  background-color: #BDBDBD;
+  margin-top: 200px;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 400px; }
+  .formulario .asunto {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 110px; }
+  .formulario .nombre-apellido, .formulario .email, .formulario .mensaje {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 110px; }
+  .formulario .mensaje {
+    margin-bottom: 80px; }
+  .formulario .boton {
+    left: 110px;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 25px;
+    border: 0;
+    background-image: linear-gradient(150deg, #009246, #FFFFFF, #CE2B37);
+    border-radius: 8px;
+    color: #161616;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s; }
+  .formulario button span {
+    background-color: #CE2B37;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s; }
+  .formulario button:hover span {
+    background: none; }
+  .formulario button:active {
+    transform: scale(0.9); }
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 70px;
+  font-size: 20px; }
